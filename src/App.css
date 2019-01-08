@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+}
+.Recog {
+  /* text-align: center;  */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.Recog-btn {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 100px;
+  height: 48px;
+  /* background: green; */
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  z-index: 3;
+}
+
+.Recog-text-div {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  overflow-y: auto;
+  height: 100%;
+}
+.Recog-text {
+  margin: 60px 20px;
+  font-size: 3em;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.Recog-complete-text {
+  color: #fff;
+}
+.Recog-interim-text {
+  color: lightgray;
+  opacity: 0.2;
+}
