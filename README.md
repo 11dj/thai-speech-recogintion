@@ -1,5 +1,5 @@
-I created Thai-recognition app by react
-just practice with Speech API
+Thai-recognition app by react
+I created it just for practice and gain experienced with Speech API
 
 Referrence
 https://www.google.com/intl/en/chrome/demos/speech.html
