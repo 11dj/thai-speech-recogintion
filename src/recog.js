@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import LangSelector from './Lang'
 
 
 class Speech extends Component {
@@ -8,7 +9,8 @@ class Speech extends Component {
     this.state = {
       listening: false,
       interim: `เริ่มแปลงเสียงพูดได้ด้วยกดปุ่ม 'ฟังเลย' ตรงบนขวา`,
-      text: ''
+      text: '',
+      langModal: false
     }
     this.recognition = ''
     if ("SpeechRecognition" in window || "webkitSpeechRecognition" in window) {
@@ -21,6 +23,8 @@ class Speech extends Component {
     this.toggleListen = this.toggleListen.bind(this)
     this.handleListen = this.handleListen.bind(this)
   }
+
+
 
   toggleListen() {
     this.setState({
@@ -86,9 +90,19 @@ class Speech extends Component {
   }
 
   render() {
-    console.log(window.webkitSpeechRecognition)
     return (
       <div className='Recog'>
+        {/* <select name="" id="Reog-select" className='Recog-select'>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select> */}
+        <div
+        className='Recog-select'
+        onClick={() => document.getElementById('SeLang').style.display = 'flex'}>เลือกภาษา</div>
+        <LangSelector 
+        selected={(lang) => console.log(lang)}
+        />
         <button 
         id='microphone-btn'
         className='Recog-btn'

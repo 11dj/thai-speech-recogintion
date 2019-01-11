@@ -11,13 +11,30 @@
   align-items: center;
   /* justify-content: center; */
 }
+
+.Recog-select {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 150px;
+  height: 42px;
+  z-index: 3;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .Recog-btn {
   position: absolute;
   right: 20px;
   top: 10px;
   width: 100px;
-  height: 48px;
-  /* background: green; */
+  height: 42px;
   border-radius: 10px;
   color: #fff;
   border: none;
@@ -44,4 +61,30 @@
 .Recog-interim-text {
   color: lightgray;
   opacity: 0.2;
+}
+
+.Lang-component {
+  position: relative;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+
+.Lang-close {
+  position: absolute;
+  top: 60px;
+  right: 40px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.Lang-each-div {
+  margin-bottom: 10px;
+  font-size: 30px;
+  cursor: pointer;
 }
