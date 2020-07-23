@@ -1,7 +1,25 @@
-Thai-recognition app by react
-I created it just for practice and gain experienced with Speech API
+# Thai-speech-recognition app by react
+## I created this project just for gaining an experience by developing with using Speech API and helping people who deaf or hard of hearing who can't hear what other people say.
 
-Referrence
+### ผมสร้างโปรเจคนี้มาเพื่อลองการใช้ Speech API ในการแปลงเสียงภาษาไทยเป็นตัวอักษร และยังสามารถนำโปรเจคนี้ไปใช้ให้กับคนที่มีปัญหาทางการได้ยินได้อีกด้วย 
+
+-------
+
+## Installation
+
+for user who prefer npm
+```bash
+npm install
+npm start
+```
+or user who prefer use yarn
+```bash
+yarn
+yarn start 
+```
+-------
+
+## Referrence
 https://www.google.com/intl/en/chrome/demos/speech.html
 
 https://gist.github.com/amandahussey/4399a175f4627e70e51cce39052ca2bb
