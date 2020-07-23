@@ -1,7 +1,8 @@
-# Thai-speech-recognition app by react
-## I created this project just for gaining an experience by developing with using Speech API and helping people who deaf or hard of hearing who can't hear what other people say.
+![Alt Text](https://media.giphy.com/media/f8y5Q6KpV8ELx5rhlT/giphy.gif)
 
-### ผมสร้างโปรเจคนี้มาเพื่อลองการใช้ Speech API ในการแปลงเสียงภาษาไทยเป็นตัวอักษร และยังสามารถนำโปรเจคนี้ไปใช้ให้กับคนที่มีปัญหาทางการได้ยินได้อีกด้วย 
+# Thai-speech-recognition app by react
+I created this project just for gaining an experience by developing with using Speech API and helping people who deaf or hard of hearing who can't hear what other people say.
+ผมสร้างโปรเจคนี้มาเพื่อลองการใช้ Speech API ในการแปลงเสียงภาษาไทยเป็นตัวอักษร และยังสามารถนำโปรเจคนี้ไปใช้ให้กับคนที่มีปัญหาทางการได้ยินได้อีกด้วย 
 
 -------
 
